@@ -1,6 +1,8 @@
 const patronLetras = /[A-Za-z]/;
 const patronNumeros = /[0-9]/;
 const patronCarEsp = /[!"#$%&/()={}+*¡?'|°]/;
+
+//Auto
 document.getElementById('Patente').addEventListener('change', function () {
     const patente = document.getElementById('Patente').value;
     if (patronLetras.test(patente) && (patronNumeros.test(patente)) && !(patronCarEsp.test(patente))) {
@@ -17,6 +19,27 @@ document.getElementById('Patente').addEventListener('change', function () {
     if (patente == "") {
         document.getElementById("Patente").style.transition = "0.3s";
         document.getElementById("Patente").style.border = "solid 1px #3181C3";
+    }
+});
+document.getElementById('DniDuenio').addEventListener('change', function () {
+    const dni = document.getElementById('DniDuenio').value;
+    if (!(patronLetras.test(dni)) || (patronNumeros.test(dni)) && !(patronCarEsp.test(dni))) {
+        document.getElementById("DniDuenio").style.transition = "0.5s";
+        document.getElementById("DniDuenio").style.border = "solid 2px green";
+    } else {
+        document.getElementById("DniDuenio").style.transition = "0.5s";
+        document.getElementById("DniDuenio").style.border = "solid 2px red";
+    }
+    if (String(dni).length > 10) {
+        document.getElementById("DniDuenio").style.transition = "0.5s";
+        document.getElementById("DniDuenio").style.border = "solid 2px red";
+    } else if (String(dni).length < 1) {
+        document.getElementById("DniDuenio").style.transition = "0.5s";
+        document.getElementById("DniDuenio").style.border = "solid 2px red";
+    }
+    if (dni == "") {
+        document.getElementById("DniDuenio").style.transition = "0.3s";
+        document.getElementById("DniDuenio").style.border = "solid 1px #3181C3";
     }
 });
 document.getElementById('Modelo').addEventListener('change', function () {
@@ -59,26 +82,5 @@ document.getElementById('Marca').addEventListener('change', function () {
     if (marca == "") {
         document.getElementById("Marca").style.transition = "0.3s";
         document.getElementById("Marca").style.border = "solid 1px #3181C3";
-    }
-});
-document.getElementById('DniDuenio').addEventListener('change', function () {
-    const dni = document.getElementById('DniDuenio').value;
-    if (!(patronLetras.test(dni)) || (patronNumeros.test(dni)) && !(patronCarEsp.test(dni))) {
-        document.getElementById("DniDuenio").style.transition = "0.5s";
-        document.getElementById("DniDuenio").style.border = "solid 2px green";
-    } else {
-        document.getElementById("DniDuenio").style.transition = "0.5s";
-        document.getElementById("DniDuenio").style.border = "solid 2px red";
-    }
-    if (String(dni).length > 10) {
-        document.getElementById("DniDuenio").style.transition = "0.5s";
-        document.getElementById("DniDuenio").style.border = "solid 2px red";
-    } else if (String(dni).length < 1) {
-        document.getElementById("DniDuenio").style.transition = "0.5s";
-        document.getElementById("DniDuenio").style.border = "solid 2px red";
-    }
-    if (dni == "") {
-        document.getElementById("DniDuenio").style.transition = "0.3s";
-        document.getElementById("DniDuenio").style.border = "solid 1px #3181C3";
     }
 });

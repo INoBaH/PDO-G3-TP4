@@ -76,6 +76,7 @@ if (isset($datos['NroDni'])){ //Si existe un objeto con NroDni, obtengo el objet
 <a class="linkVolver" href="BuscarPersona.php">Volver</a><br>
 </div>
 </div>
+<script src="js/validatePersona.js"></script>
 </body>
 </html>
 

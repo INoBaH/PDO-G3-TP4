@@ -33,6 +33,7 @@
 <a class="linkVolver" href="../index.php">Menu</a><br>
 </div>
 </div>
+<script src="js/validateAuto.js"></script>
 </body>
 </html>
 

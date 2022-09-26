@@ -3,8 +3,8 @@
 <head>
 <title>Ejercicio 4</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="../Vista/css/estilos.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="../Vista/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body class="fondo"><br><br>
@@ -27,6 +27,6 @@
         </form>
 
 <a class="linkVolver" href="../index.php">Menu</a><br>
-<script src="js/validator.js"></script>
+<script src="js/validateAuto.js"></script>
 </body>
 </html>

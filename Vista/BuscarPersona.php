@@ -30,6 +30,7 @@
 <a class="linkVolver" href="../index.php">Menu</a><br>
 </div>
 </div>
+<script src="js/validatePersona.js"></script>
 </body>
 </html>
 
