@@ -1,0 +1,99 @@
+
+/*body */
+.fondo{
+   background-image: url("../img/fondo.jpg");
+}
+
+.titulo{
+  color: #081F91;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Georgia;
+}
+
+.logo{
+  margin-left: 5px; 
+  margin-right: 5px;
+}
+
+
+.boton{
+  border: 2px solid;
+  border-color: #3181C3;
+  transition: all 1s ease;
+  /*position: relative;*/
+  position: relative;
+  padding: 25px 1px; /*arriba-abajo, izq-der*/
+  margin: 0px 20px 10px 0px;
+  float: left;
+  border-radius: 15px; /*redondeo de las esquinas*/
+  /*font-family: 'Georgia', cursive;*/
+  font-family: 'Arial';
+  font-size: 17px; /*tamaño letra*/
+  color: white; /*color letra*/
+  width: 150px !important; /*tamaño botones*/
+  height: 75px !important;
+  text-align: center; /*alineacion de texto*/
+  background: #0072BC;
+}
+
+.boton:hover{
+  -webkit-transform:scale(1.1);transform:scale(1.1); /*Acercamiento*/
+}
+
+.titulo1{
+   color: #3181C3;
+   font-size: 35px;
+   font-weight: 600;
+}
+
+.titulo2{
+  color: #3181C3;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#tituloTabla{
+  border: 2px solid black;
+  color: white;
+  background-color: #3181C3;
+}
+
+#subtituloTabla{
+  border: 1px solid black;
+}
+
+
+.linkVolver{
+  color: #3181C3;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+#botonBuscar{
+  color: white;
+  background-color: #5D6D7E;
+  border: 2px solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 85px;
+}
+
+#botonBuscar:hover{
+   color: #5D6D7E;
+   background-color:white;
+}
+
+
+#Telefono, #Domicilio, #fechaNac, #Nombre, #Apellido, #NroDni, #Patente, #Marca, #Modelo, #DniDuenio{
+  border-color: #3181C3; 
+  border-radius: 25px; 
+  text-align: center; 
+  margin: 5px;
+}
+
+.input-group { 
+  width: 33%;
+}
