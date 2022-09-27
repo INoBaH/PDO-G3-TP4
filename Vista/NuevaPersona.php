@@ -12,7 +12,7 @@
 <div class="container" align="center">
 	<span class="titulo2">Ejercicio 6</span><br><br>
 
-		<form method="post" action="accionNuevaPersona.php">
+		<form method="post" id="Formulario" action="accionNuevaPersona.php">
 			<label>Numero de documento</label><br/>
 			<div class="input-group mx-auto">
         		<input type="text" id="NroDni" name="NroDni" class="form-control" autocomplete="off" maxlength="10" required="">
@@ -30,7 +30,7 @@
 
       		<label>Fecha de nacimiento</label><br/>
 			<div class="input-group mx-auto">
-        		<input type="date" id="fechaNac" name="fechaNac" class="form-control" required="">
+        		<input type="date" id="fechaNac" value="" name="fechaNac" class="form-control" required="">
       		</div><br>
 
 			<label>Telefono</label><br/>

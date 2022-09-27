@@ -34,7 +34,7 @@ else{
 ?>
 
 <head>
-<title>Ejercicio 5</title>
+<title>Solicitud Procesada</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="../Vista/css/estilos.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="../Vista/css/bootstrap.min.css">

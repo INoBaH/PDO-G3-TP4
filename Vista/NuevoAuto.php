@@ -12,7 +12,7 @@
 <div class="container" align="center">
     <span class="titulo2">Ejercicio 7</span><br><br>
 
-    <form method="post" action="accionNuevoAuto.php">
+    <form method="post" id="Formulario" action="accionNuevoAuto.php">
 
         <label>Patente</label><br/>
         <div class="input-group mx-auto">
